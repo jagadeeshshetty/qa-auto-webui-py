@@ -10,7 +10,13 @@ $ pipenv shell
 
 # Check the created pipenv
 $ pip -V
-pip 23.2.1 from C:\Users\jagadeesh\.virtualenvs\webui-auto-py-eyUPwNIr\Lib\site-packages\pip (python 3.11)
+pip 23.2.1 from C:\Users\jagadeesh\.virtualenvs\qa-auto-webui-py-yfPz8AYI\Lib\site-packages\pip (python 3.11)
+
+# Install the dependencies
+$ pipenv install
+
+# Check the installed dependencies
+$ pipenv graph
 
 # Run the test suite
 $ pytest
