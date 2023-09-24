@@ -1,6 +1,6 @@
 # WebUI Test Automation Framework using the Python programming language
 
-## Commands
+## Commands 💻
 
 Tbd
 
@@ -25,6 +25,7 @@ $ pytest
 Disable auto wrap long line
 
 ```
+⚙️
 Autopep8: Args
 Arguments passed in. Each argument is a separate string in the array.
 
@@ -35,7 +36,7 @@ Arguments passed in. Each argument is a separate string in the array.
 
 Tbd
 
-# Reference
+# Reference 🔗
 
 - [Tbd](https://tbd.com/)
 - [Tbd](https://tbd.com/)
