@@ -22,6 +22,15 @@ $ pipenv graph
 $ pytest
 ```
 
+Disable auto wrap long line
+
+```
+Autopep8: Args
+Arguments passed in. Each argument is a separate string in the array.
+
+--max-line-length=120
+```
+
 ## Tbd
 
 Tbd
