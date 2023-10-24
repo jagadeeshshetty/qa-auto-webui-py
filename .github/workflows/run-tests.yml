@@ -20,17 +20,17 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install software
-        run: sudo apt-get install -y chromium-browser
+      # - name: Install software
+      #   run: sudo apt-get install -y chromium-browser
       
       - name: Install the necessary packages
         run: |
           pip -V
           pip install pipenv
-          # pipenv shell
-          # pipenv install
-          # pipenv graph
-          # pip -V
+          pipenv shell
+          pipenv install
+          pipenv graph
+          pip -V
       
       - name: Run the PytTest script
         run: pytest
