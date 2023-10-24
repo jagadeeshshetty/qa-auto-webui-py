@@ -3,9 +3,15 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[scripts]
+test = "pytest"
+test-and-report-macos = "./run_tests.sh"
+test-and-report-windows = "run_tests.bat"
+
 [packages]
 selenium = "~=4.12.0"
 pytest = "*"
+allure-pytest = "~=2.13.2"
 
 [dev-packages]
 
