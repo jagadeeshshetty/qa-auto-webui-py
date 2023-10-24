@@ -24,12 +24,13 @@ jobs:
         run: sudo apt-get install -y chromium-browser
       
       - name: Install the necessary packages
-        run: pip -V
-        run: pip install pipenv
-        run: pipenv shell
-        run: pipenv install
-        run: pipenv graph
-        run: pip -V
+        run: |
+          pip -V
+          pip install pipenv
+          pipenv shell
+          pipenv install
+          pipenv graph
+          pip -V
       
       - name: Run the PytTest script
         run: pytest
