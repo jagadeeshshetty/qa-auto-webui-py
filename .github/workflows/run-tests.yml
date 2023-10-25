@@ -33,11 +33,6 @@ jobs:
         if: always()
         run: pipenv run test
         continue-on-error: true
-      - name: List dir
-        run: |
-          ls -lha
-          cd allure-results
-          ls
 
       - name: Get Allure history
         uses: actions/checkout@v3
