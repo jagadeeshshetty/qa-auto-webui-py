@@ -30,4 +30,4 @@ jobs:
           python -m pip install --upgrade pipenv wheel
           pipenv install
       - name: Run the testcases
-        run: pytest
+        run: pipenv run test-and-report-macos
