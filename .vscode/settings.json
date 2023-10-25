@@ -1,9 +1,0 @@
-{
-  "window.zoomLevel": 1,
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8",
-    "editor.formatOnSave": true
-  },
-  "autopep8.importStrategy": "useBundled",
-  "python.formatting.provider": "none"
-}
