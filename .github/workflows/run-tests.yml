@@ -7,14 +7,14 @@ on:
   schedule:
     # Runs everyday 13:00 UTC
     - cron: '00 13 * * *'
-  # workflow_dispatch:
-  # pull_request:
-  push:
-    branches-ignore:
-      - '!master'
+  workflow_dispatch:
+  pull_request:
+  # push:
+  #   branches-ignore:
+  #     - '!master'
 
 jobs:
-  Test WebUI:
+  TestWebUI:
     name: Run tests and generate the allure report
     runs-on: ubuntu-latest
     steps:
@@ -31,4 +31,3 @@ jobs:
           pipenv install
       - name: Run the testcases
         run: pytest
-
