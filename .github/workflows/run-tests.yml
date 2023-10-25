@@ -36,7 +36,8 @@ jobs:
       - name: List dir
         run: |
           ls -lha
-          pipenv run allure serve allure-results
+          cd allure-results
+          ls
 
       - name: Get Allure history
         uses: actions/checkout@v3
