@@ -2,6 +2,8 @@
 import time
 import pytest
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
 from pages import login_page
 
 
@@ -10,7 +12,10 @@ class TestLogin():
     @pytest.fixture
     def login(self, request):
         """ tbd """
-        driver_ = webdriver.Chrome()
+        chrome_options = Options()
+        # Run Chrome in headless mode
+        chrome_options.add_argument("--headless")
+        driver_ = webdriver.Chrome(options=chrome_options)
 
         def quit():
             """ Tbd """
