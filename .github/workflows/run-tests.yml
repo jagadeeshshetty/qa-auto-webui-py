@@ -27,8 +27,9 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pipenv wheel allure
+          python -m pip install --upgrade pipenv wheel
           pipenv install
+          allure --version
       - name: Run the testcases
         if: always()
         run: pipenv run test
