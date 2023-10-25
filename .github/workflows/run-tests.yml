@@ -29,11 +29,13 @@ jobs:
         run: |
           python -m pip install --upgrade pipenv wheel
           pipenv install
-          pipenv shell
       - name: Run the testcases
         if: always()
         run: pipenv run test
         continue-on-error: true
+      - name: List dir
+        run: |
+          ls -lha
 
       - name: Get Allure history
         uses: actions/checkout@v3
