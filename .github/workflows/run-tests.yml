@@ -30,9 +30,12 @@ jobs:
           python -m pip install --upgrade pipenv wheel
           pipenv install
           which pipenv
-      - name: Run the testcases
+      - name: Run the test cases
         if: always()
-        run: pipenv run test
+        run: |
+          pipenv run test
+          ls -lha
+          ls -lha allure-results
         continue-on-error: true
 
       - name: Get Allure history
@@ -59,4 +62,4 @@ jobs:
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-allure_history
+          PUBLISH_DIR: allure-history
