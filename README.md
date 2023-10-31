@@ -1,5 +1,7 @@
 # WebUI Test Automation Framework using the Python programming language
 
+[![WebUI Testcases Execution 🚀](https://github.com/jagadeeshshetty/qa-auto-webui-py/actions/workflows/run-tests.yml/badge.svg)](https://github.com/jagadeeshshetty/qa-auto-webui-py/actions/workflows/run-tests.yml)
+
 ## Commands 💻
 
 Tbd

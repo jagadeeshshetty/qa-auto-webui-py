@@ -9,9 +9,9 @@ on:
     - cron: '00 13 * * *'
   workflow_dispatch:
   pull_request:
-  # push:
-  #   branches-ignore:
-  #     - '!master'
+  push:
+    branches-ignore:
+      - '!master'
 
 jobs:
   TestWebUI:
