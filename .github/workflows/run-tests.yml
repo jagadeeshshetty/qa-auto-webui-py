@@ -38,7 +38,7 @@ jobs:
           ls -lha allure-results
         continue-on-error: true
 
-        - name: Get Allure history
+      - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
         continue-on-error: true
