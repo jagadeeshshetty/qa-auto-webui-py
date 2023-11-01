@@ -22,6 +22,9 @@ $ pipenv graph
 
 # Run the test suite
 $ pytest
+
+# Local test cases development
+pipenv run test-and-report-macos
 ```
 
 Disable auto wrap long line
