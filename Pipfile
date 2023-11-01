@@ -12,6 +12,7 @@ test-and-report-windows = "run_tests.bat"
 selenium = "~=4.12.0"
 pytest = "*"
 allure-pytest = "~=2.13.2"
+pylint = "*"
 
 [dev-packages]
 
