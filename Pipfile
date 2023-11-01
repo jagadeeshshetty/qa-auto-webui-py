@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [scripts]
-test = "pytest"
+test = "pytest -v --disable-warnings"
 test-and-report-macos = "./run_tests.sh"
 test-and-report-windows = "run_tests.bat"
 

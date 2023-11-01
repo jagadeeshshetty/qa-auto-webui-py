@@ -33,9 +33,7 @@ jobs:
       - name: Run the test cases
         if: always()
         run: |
-          pipenv run test
-          ls -lha
-          ls -lha allure-results
+          pipenv run pytest -v --disable-warnings
         continue-on-error: true
 
       - name: Get Allure history

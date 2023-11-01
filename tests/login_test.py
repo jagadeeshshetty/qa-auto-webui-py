@@ -1,12 +1,13 @@
 """ filename: tests/login_test.py """
-import time
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+import allure
 
 from pages import login_page
 
 
+@pytest.mark.the_internet
 class TestLogin():
     """Tbd"""
     @pytest.fixture
@@ -24,11 +25,13 @@ class TestLogin():
         request.addfinalizer(quit)
         return login_page.LoginPage(driver_)
 
+    @pytest.mark.valid_login
     def test_valid_credentials(self, login):
         """ Tbd """
         login.with_("tomsmith", "SuperSecretPassword!")
         assert login.success_message_present()
 
+    @pytest.mark.invalid_login
     def test_invalid_credentials(self, login):
         """ Tbd """
         login.with_("tomsmith", "bad password")
