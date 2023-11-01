@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Nov 01 07:41:43 GMT 2023","Wed Nov 01 07:41:43 GMT 2023","0","tests","allure_test","TestAllureOptions","","","test_class_method_as_step","Tbd"
+"passed","Wed Nov 01 07:41:48 GMT 2023","Wed Nov 01 07:41:50 GMT 2023","1372","tests","login_test","TestLogin","","","test_invalid_credentials"," Tbd "
+"passed","Wed Nov 01 07:41:43 GMT 2023","Wed Nov 01 07:41:43 GMT 2023","0","tests","allure_test","TestAllureOptions","","","test_reusable_step","Tbd"
+"passed","Wed Nov 01 07:41:46 GMT 2023","Wed Nov 01 07:41:47 GMT 2023","1431","tests","login_test","TestLogin","","","test_valid_credentials"," Tbd "
+"passed","Wed Nov 01 07:41:43 GMT 2023","Wed Nov 01 07:41:43 GMT 2023","0","tests","allure_test","TestAllureOptions","","","test_nested_steps","Tbd"
+"passed","Wed Nov 01 07:41:43 GMT 2023","Wed Nov 01 07:41:43 GMT 2023","0","tests","allure_test","TestAllureOptions","","","test_inline_step","Tbd"
