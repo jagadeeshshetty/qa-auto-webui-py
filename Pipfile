@@ -13,6 +13,8 @@ selenium = "~=4.12.0"
 pytest = "*"
 allure-pytest = "~=2.13.2"
 pylint = "*"
+pytest-allure-adaptor = "*"
+imageio = "*"
 
 [dev-packages]
 
