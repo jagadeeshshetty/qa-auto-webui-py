@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Oct 31 21:45:28 GMT 2023","Tue Oct 31 21:45:29 GMT 2023","1381","tests","login_test","TestLogin","","","test_valid_credentials"," Tbd "
-"passed","Tue Oct 31 21:45:30 GMT 2023","Tue Oct 31 21:45:32 GMT 2023","1301","tests","login_test","TestLogin","","","test_invalid_credentials"," Tbd "
